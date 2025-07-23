@@ -52,7 +52,7 @@ GPU-accelerated-audio-analyzer/
 
 This section details the exact steps to set up the environment and dependencies, specifically as performed within your Google Colab notebook.
 
-1.  **Clone the Repository:** Start by cloning your GitHub repository into the Colab environment.
+1.  **Clone the Repository:**
     ```bash
     !git clone [https://github.com/edgecase7/GPU-accelerated-audio-analyzer.git](https://github.com/edgecase7/GPU-accelerated-audio-analyzer.git)
     ```
@@ -64,7 +64,7 @@ This section details the exact steps to set up the environment and dependencies,
     !apt-get install -y libfftw3-dev libsndfile1-dev
     ```
 
-3.  **Navigate to Project Directory:** Change to your project's root directory after cloning.
+3.  **Navigate to Project Directory:** C
     ```bash
     %cd GPU-accelerated-audio-analyzer
     ```

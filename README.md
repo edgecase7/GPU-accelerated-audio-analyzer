@@ -54,7 +54,7 @@ This section details the exact steps to set up the environment and dependencies,
     ```bash
     !git clone [https://github.com/edgecase7/GPU-accelerated-audio-analyzer.git](https://github.com/edgecase7/GPU-accelerated-audio-analyzer.git)
     ```
-    *(Remember to replace `https://github.com/edgecase7/GPU-accelerated-audio-analyzer.git` with the actual URL of your repository if it's different)*
+    
 
 2.  **Install System Packages:** Install required C/C++ libraries for `libsndfile` and `FFTW`.
     ```bash
@@ -66,7 +66,6 @@ This section details the exact steps to set up the environment and dependencies,
     ```bash
     %cd GPU-accelerated-audio-analyzer
     ```
-    *(If your repository name is different, adjust `GPU-accelerated-audio-analyzer` accordingly)*
 
 4.  **Install Python Dependencies and Generate Input Audio Files:** Install Python packages needed for `generate_audio.py` and then run the script to create synthetic `.wav` files.
     ```bash

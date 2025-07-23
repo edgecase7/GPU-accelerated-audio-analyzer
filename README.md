@@ -17,6 +17,8 @@ GPU-accelerated-audio-analyzer/
 ├── output_data/           # Contains output .csv files with FFT magnitude results
 ├── main.cpp               # Main C++ program performing audio FFT processing
 ├── generate_audio.py      # Python script to generate synthetic input audio files
+├── kernel.h               # Header file for CUDA kernel declarations
+├── kernel.cu              # CUDA kernel implementation for GPU-acceleraccelerated FFT
 ├── Makefile               # Build automation for compiling and cleaning the C++ project
 ├── run.sh                 # Shell script for simplified build and run operations 
 ├── README.md              # Project documentation (this file)

@@ -18,7 +18,7 @@ GPU-accelerated-audio-analyzer/
 ├── main.cpp               # Main C++ program performing audio FFT processing
 ├── generate_audio.py      # Python script to generate synthetic input audio files
 ├── kernel.h               # Header file for CUDA kernel declarations
-├── kernel.cu              # CUDA kernel implementation for GPU-acceleraccelerated FFT
+├── kernel.cu              # CUDA kernel implementation for GPU-accelerated FFT
 ├── Makefile               # Build automation for compiling and cleaning the C++ project
 ├── run.sh                 # Shell script for simplified build and run operations 
 ├── README.md              # Project documentation (this file)
@@ -44,7 +44,7 @@ GPU-accelerated-audio-analyzer/
 - libsndfile library installed  
 - Python 3.7+ (for generating input audio files)  
 - CuPy, NumPy, SciPy Python packages (for audio generation)
-- Google Colab envrionment
+- Google Colab envir    onment
 
 ---
 
@@ -54,7 +54,7 @@ This section details the exact steps to set up the environment and dependencies,
 
 1.  **Clone the Repository:**
     ```bash
-    !git clone [https://github.com/edgecase7/GPU-accelerated-audio-analyzer.git](https://github.com/edgecase7/GPU-accelerated-audio-analyzer.git)
+    !git clone https://github.com/edgecase7/GPU-accelerated-audio-analyzer.git
     ```
     
 
@@ -64,7 +64,7 @@ This section details the exact steps to set up the environment and dependencies,
     !apt-get install -y libfftw3-dev libsndfile1-dev
     ```
 
-3.  **Navigate to Project Directory:** C
+3.  **Navigate to Project Directory:** 
     ```bash
     %cd GPU-accelerated-audio-analyzer
     ```
